@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Программа, которая выдает квадрат числа
+int number = Convert.ToInt32(Console.ReadLine());
+int square = number * number;
+Console.WriteLine("результат " + square);
